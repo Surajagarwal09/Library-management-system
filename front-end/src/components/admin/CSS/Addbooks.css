@@ -1,0 +1,73 @@
+.add-book-wrapper {
+  background-color: #063667;
+  min-height: 94.7vh;
+  padding: 20px;
+}
+.add-book-container {
+    max-width: 600px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #052545;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    color: aliceblue;
+  }
+  .add-book-container{
+    margin-top: 50px;
+    margin-left: 500px;
+    align-items: center;
+    justify-content: center;
+  }
+  .add-book-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+  }
+  
+.add-book-container  button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+ .add-book-container button[type="submit"]:hover {
+    background-color: #218838;
+  }
+  .add-book-container input {
+    background-color: #194e84;
+    color: aliceblue;
+    font-size: 14px;
+  }
+  
+  .add-book-container textarea {
+    background-color: #194e84;
+    color: aliceblue;
+    font-size: 14px;
+  } 

@@ -1,0 +1,130 @@
+.unique-wrapper {
+    background-color: #063667;
+    min-height: 100vh;
+  }
+  
+  .unique-main-content {
+    display: flex;
+    margin-left: 250px;
+    margin-right: 15px;
+    flex: 1;
+  }
+  
+  .unique-book-list-container {
+    flex: 1;
+  }
+  
+  .unique-book-list-container h2 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 35px;
+    color: aliceblue;
+  }
+  
+  .unique-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    gap: 20px;
+    justify-content: flex-start;
+  }
+  
+  .unique-col-sm-4 {
+    flex: 1 1 21%;
+    box-sizing: border-box;
+    position: relative;
+    max-width: 25%;
+    border-radius: 10px;
+  }
+  
+  .unique-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #052545;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .unique-card img {
+    width: 150px;
+    height: auto;
+  }
+  
+  .unique-card-body {
+    padding: 16px;
+  }
+  
+  .unique-card-body h5 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: azure;
+  }
+  
+  .unique-card-body p {
+    margin: 5px 0;
+    color: #ebe5bd;
+  }
+  
+  .unique-card-body button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .unique-card-body button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+.admin-searchbar {
+  display: flex;
+  align-items: center;
+  background-color: #b6ccea;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 5px 10px;
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+  margin-left: auto;
+}
+
+.admin-searchbar input[type="search"] {
+  border: none;
+  border-radius: 25px;
+  background-color: #93b3e0;
+  padding: 10px 15px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+}
+
+.admin-searchbar input {
+  color: black;
+  font-size: 25px;
+}
+
+.admin-searchbar button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.admin-searchbar button:hover {
+  background-color: #0056b3;
+}
+
+.admin-searchbar button .fa-search {
+  font-size: 18px;
+}

@@ -1,0 +1,85 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.student-register-wrapper, .staff-register-wrapper,.Admin-register-wrapper {
+    background-image: url('../assets/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.head1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 80px;
+    color: azure;
+    font-size: 50px;
+}
+
+.sform {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 10px;
+}
+
+.sform form {
+    font-family: sans-serif;
+    background-color: rgba(255, 255, 255, 0.363);
+    border: 2px solid greenyellow;
+    font-size: 25px;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.sform input {
+    padding: 4px;
+    border-radius: 5px;
+    border: 2px solid greenyellow;
+    font-size: 20px;
+    width: 350px;
+}
+
+.sform button {
+    margin-left: 120.5px;
+}
+
+#srsubmit, #stsubmit {
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(81, 242, 17, 0.964);
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: transform 0.2s ease;
+}
+
+#srsubmit:hover, #stsubmit:hover {
+    background-color: black;
+    color: greenyellow;
+}
+
+#srsubmit:active, #stsubmit:active {
+    background-color: greenyellow;
+    color: black;
+    transform: scale(0.96);
+}

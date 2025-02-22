@@ -1,0 +1,24 @@
+* {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.homepage-wrapper {
+    background-image: url('../assets/gpl00.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+

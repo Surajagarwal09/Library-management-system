@@ -1,0 +1,98 @@
+nav {
+    background-color: rgb(3, 3, 84);
+    justify-content: space-between;
+    display: flex;
+    position: fixed;
+    padding: 4px;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    text-align: center;
+    z-index: 1000;
+}
+
+#home {
+    margin-left: 10px;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    cursor: pointer;
+    color: aliceblue;
+    transition: transform 0.2s ease;
+}
+.navbar h2{
+    color: aliceblue;
+}
+.navtext {
+    color: aliceblue;
+    font-size: 28px;
+}
+
+#home:active {
+    transform: scale(0.96);
+}
+
+#home:hover,
+#user:hover {
+    color: blue;
+}
+
+.userbutton {
+    margin-right: 0px;
+}
+
+#user {
+    margin-right: 20px;
+    color: aliceblue;
+}
+
+#user:hover {
+    cursor: pointer;
+    content: "User";
+}
+
+.userbutton #user {
+    background-color: black;
+    font-size: 20px;
+    padding: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: transform 0.2s ease;
+}
+
+.userbutton #user:active {
+    transform: scale(0.96);
+}
+
+.dropdown-menu li button {
+    color: aliceblue;
+    font-size: 16px;
+}
+
+.dropdown-menu {
+    position: absolute;
+    background-color: rgba(7, 7, 148, 0.771);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    list-style: none;
+    margin-left: -110px;
+    border-radius: 4px;
+}
+
+.dropdown-menu li {
+    margin: 5px 0;
+}
+
+.dropdown-menu button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    width: 100%;
+    text-align: left;
+}
+
+.dropdown-menu button:hover {
+    text-decoration: underline solid 1.5px greenyellow;
+}

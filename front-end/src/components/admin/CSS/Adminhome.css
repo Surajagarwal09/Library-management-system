@@ -1,0 +1,51 @@
+/* Adminhome.css */
+.admin-homepage {
+  display: flex;
+  overflow: hidden;
+}
+
+.admin-profile-wrapper {
+  background-color: #063667;
+  min-height: 94.7vh;
+  margin-left: 220px; 
+  padding: 20px;
+  width: calc(100% - 220px); 
+}
+
+.admin-profile-container img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.admin-profile-container {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 20px;
+  background-color: #052545;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.admin-profile-container h1 {
+  margin-top: 0%;
+  font-size: 50px;
+  text-align: center;
+  color: aliceblue;
+}
+
+.admin-profile-details {
+  margin-top: 20px;
+}
+
+.admin-profile-details p {
+  font-size: 1.5em;
+  color: antiquewhite;
+  margin-bottom: 10px;
+}
