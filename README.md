@@ -1,5 +1,5 @@
 ﻿# Library-management-system
-Live-project: https://your-favourite-library.netlify.app/login
+Live-project: https://your-favourite-library.netlify.app
 
 # technology used: MongoDB, Express.js, React.js, Node.js.
 
